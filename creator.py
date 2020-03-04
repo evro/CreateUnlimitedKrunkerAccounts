@@ -3,7 +3,7 @@ import time
 
 url = ('https://krunker.io')
 
-driver = webdriver.Chrome('/Users/Win10v370.PLCHNET/Downloads/chromedriver')
+driver = webdriver.Chrome('/Users/YOURLOGINUSERNAMEHERE/Downloads/chromedriver')
 driver.get(url)
 
 driver.find_element_by_class_name("Register").click()
